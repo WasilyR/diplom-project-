@@ -1,0 +1,126 @@
+.header {
+	background: #161617 url("./../../img/header/Slice-bg.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+
+	&::before {
+		content: "";
+		position: fixed;
+		top: 0px;
+		right: 52%;
+		transform: translate(0% -50%);
+		width: 127px;
+		height: 29px;
+		background-image: url("./../img/header/top-decor.svg");
+		background-repeat: no-repeat;
+	}
+}
+
+.header__top {
+}
+.header__top-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 0px;
+}
+.header__logo-studio {
+	font-family: $second-family1;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 140.6%;
+	letter-spacing: 0.31em;
+	color: #ffffff;
+	transform: rotate(-0.19deg);
+}
+.header__logo-web {
+	font-family: $second-family3;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 140.6%;
+	letter-spacing: -0.115em;
+	color: #ffffff;
+	transform: rotate(-0.19deg);
+	margin-top: -19px;
+}
+.header__nav-list {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	margin-left: 350px;
+}
+
+.header__nav-item {
+	font-family: $second-family2;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	color: #ffffff;
+	margin-right: 34px;
+}
+.header__body {
+}
+
+.header__main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto 0;
+}
+.header__content {
+	flex: 0 0 100%;
+}
+.header__inner {
+width: 70%;
+}
+.title1 {
+	font-family: $second-family3;
+	font-weight: 800;
+	font-size: 65px;
+	line-height: 90px;
+	background: linear-gradient(91.2deg, #b5feef 10.31%, #2eecc5 165.09%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	// white-space: nowrap;
+}
+
+.header__text {
+	font-family: $second-family4;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 30px;
+	max-width: 672px;
+	color: rgba(255, 255, 255, 0.65);
+	margin-bottom: 50px;
+	padding: 0 100px 0 0;
+}
+.btn-text {
+	font-family: $second-family4;
+	font-style: Regular;
+	font-size: 19px;
+	line-height: 100%;
+	color: rgba(255, 255, 255, 0.4);
+	margin-left: 25px;
+}
+.header__img-box {
+	position: relative;
+	flex: 0 0 50%;
+	transform: translate(-100%, 0px);
+	max-width: 773px;
+	padding-left: 45px;
+}
+.header__img {
+	// height: 844px;
+	// width: 100%;
+}
+.header__img img {
+	max-width: 100%;
+	object-fit: cover;
+
+}
+
